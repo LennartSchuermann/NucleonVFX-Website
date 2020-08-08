@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+body {
+    background: url(assets/bg.png) no-repeat;
+    overflow: hidden;
+}
+.overlay{
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background: #282828;
+    top: 0%;
+    overflow: hidden;
+}
+.overlay h1{
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    font-weight: bolder;
+    letter-spacing: 12px;
+}
+.navbar .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger4.svg?color=fff');
+}
+.nav-link{
+    font-weight: bold;
+}
+
+.navbar-nav > li{
+    padding-left:50px;
+    padding-right:50px;
+}
+@media (min-width: 812px){
+    .navbar li {
+        margin-left : 1em;
+        margin-right : 1em;
+    }
+}
+
+.caption{
+    position: absolute;
+    z-index: 1;
+    top: 42%;
+    width: 100%;
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 15px;
+}
+h3{
+    font-family: 'Dancing Script', cursive;
+    font-weight: 300;
+    color: #fff;
+}
